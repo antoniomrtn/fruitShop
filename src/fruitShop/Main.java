@@ -5,6 +5,7 @@ import java.util.Map;
 public class Main {
 
 	public static void main(String[] args) {
+		// main
 		Shop shop = new Shop();
 		// Process the list of products from CSV
 		Map<String, Double> stock = shop.processInput("resources/products.csv");
